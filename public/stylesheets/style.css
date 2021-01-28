@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
+  padding: 0;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
-a {
-  color: #00B7FF;
+.itens {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+.img-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.icone-car {
+  width: 35px;
+  height: 35px;
+}
+
+.qtd-car {
+  color: blue;
+  padding-bottom: 4px;
+  margin-left: 5px;
+  font-size: 14px;
+  }
+
+  nav {
+  background: rgb(57,130,53); 
+  background: -moz-linear-gradient(top,  rgb(57,130,53) 0%, rgb(138,182,107) 56%, rgb(201,222,150) 100%); 
+  background: -webkit-linear-gradient(top,  rgb(57,130,53) 0%,rgb(138,182,107) 56%,rgb(201,222,150) 100%);
+  background: linear-gradient(to bottom,  rgb(57,130,53) 0%,rgb(138,182,107) 56%,rgb(201,222,150) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#398235', endColorstr='#c9de96',GradientType=0 ); 
+  }
+
+ 
